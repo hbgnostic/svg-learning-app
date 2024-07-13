@@ -23,6 +23,43 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* src/App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Optional: add padding to ensure content is not touching the edges */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Adjust this value to increase the spacing between lines */
+}
+
+.label-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the label/input pairs */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.label-group label {
+  margin-bottom: 0; /* Remove bottom margin for labels inside label-group */
+}
+
+.svg-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 
 .App-link {
   color: #61dafb;
