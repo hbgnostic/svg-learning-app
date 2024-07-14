@@ -15,6 +15,14 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+
   },
   "homepage": "http://hbgnostic.github.io/svg-learning-app",
   "browserslist": {
@@ -28,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.4"
+
   }
 }
